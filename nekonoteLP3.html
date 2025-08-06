@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【脱会社依存】サブスク副業でブラックリーマンを解放する、脱サラファストパス【 NEKO no TE 】</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chosen Palette: Warm Neutral (Cream, Dark Slate) with a Calming Teal accent -->
+    <!-- Application Structure Plan: A single-page, scrolling narrative structure based on the AIDA (Attention, Interest, Desire, Action) model. It starts with a hook (the problem), introduces the solution, details the benefits/features in an interactive tabbed section, provides social proof, paints an aspirational future, and ends with a strong call to action. This is more engaging than a linear slide presentation and guides the user logically towards conversion. A sticky navigation allows for quick access to key sections. -->
+    <!-- Visualization & Content Choices: Report Info: User pain points (Slide 2) -> Goal: Empathy/Hook -> Presentation: Icon + Text List -> Interaction: Static -> Justification: Quickly relatable. Report Info: Core Benefits (Slides 3-5) -> Goal: Detail/Inform -> Presentation: Interactive Tabs -> Interaction: Click to reveal content -> Justification: Organizes information cleanly without overwhelming the user. Report Info: Testimonials (Slide 6) -> Goal: Build Trust/Proof -> Presentation: Stylized Quote Blocks -> Interaction: Static -> Justification: Adds authenticity. Report Info: Roadmap Concept (Slide 3) -> Goal: Show a clear path -> Presentation: HTML/CSS Diagram -> Interaction: Static -> Justification: Visualizes the concept of a step-by-step plan without complex graphics. No charts were used as the source material provides qualitative success statements, not raw data suitable for charting. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #FDFBF5;
+            color: #333;
+        }
+        .tab-active {
+            border-color: #14B8A6;
+            color: #14B8A6;
+            font-weight: 700;
+        }
+        .tab-inactive {
+            border-color: transparent;
+            color: #6B7280;
+        }
+        .section-fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .section-fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+
+    <header id="header" class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="text-xl font-bold text-gray-800">NEKO no TE</div>
+            <div>
+                <a href="#benefits" class="text-gray-600 hover:text-teal-600 px-3 py-2 rounded-md text-sm font-medium">メンバーシップの魅力</a>
+                <a href="#popular-articles" class="text-gray-600 hover:text-teal-600 px-3 py-2 rounded-md text-sm font-medium">人気記事</a>
+                <a href="#about-neko" class="text-gray-600 hover:text-teal-600 px-3 py-2 rounded-md text-sm font-medium">鈴木ねこについて</a>
+                <a href="#cta" class="bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 rounded-full text-sm font-bold transition-colors duration-300">初月無料で参加</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="py-20 md:py-32 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <div class="text-6xl mb-4 animate-bounce-slow">🐾</div>
+                <h1 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4 leading-tight">もう会社に人生を預けない</h1>
+                <h2 class="text-2xl md:text-4xl font-bold text-teal-600 mb-6">月500円の脱サラ設計図</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-8">ブラックな毎日を変える、たった1つの選択肢がここにあります。</p>
+                <a href="https://note.com/neko_suzuki/membership" target="_blank" class="bg-teal-500 hover:bg-teal-600 text-white px-8 py-4 rounded-full text-lg font-bold transition-colors duration-300 shadow-lg inline-block">
+                    初月無料で参加
+                </a>
+            </div>
+        </section>
+
+        <section id="problem" class="py-16 section-fade-in">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">あなたはまだ、こんな生活に縛られていませんか？</h2>
+                <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div class="text-4xl mb-4">🕒</div>
+                        <h3 class="font-bold text-lg mb-2">時間がない</h3>
+                        <p class="text-gray-600">終電ギリギリの帰宅、家族との時間もとれない…</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div class="text-4xl mb-4">💰</div>
+                        <h3 class="font-bold text-lg mb-2">お金の不安</h3>
+                        <p class="text-gray-600">ちょっとした贅沢もできず、将来が不安…</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div class="text-4xl mb-4">📉</div>
+                        <h3 class="font-bold text-lg mb-2">続かない副業</h3>
+                        <p class="text-gray-600">単発収入で終わり、「稼ぎ続ける」ことができない…</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="solution" class="py-16 bg-teal-50 section-fade-in">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">その悩み、【NEKO no TE】が解決します。</h2>
+                <p class="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">僕が届けたいのは、会社への依存から抜け出すための具体的なロードマップ。<br>「稼ぎ続ける力」を、あなたの手に。</p>
+                <a href="#cta" class="bg-teal-500 hover:bg-teal-600 text-white px-8 py-4 rounded-full text-lg font-bold transition-colors duration-300 shadow-lg">今すぐ人生の第一歩を踏み出す</a>
+            </div>
+        </section>
+
+        <section id="benefits" class="py-16 section-fade-in">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-2">メンバーシップの3つの魅力</h2>
+                <p class="text-center text-gray-600 mb-12">あなたの副業を成功に導くための、3つの強力な柱をご紹介します。</p>
+
+                <div class="max-w-3xl mx-auto">
+                    <div class="mb-4 flex justify-center border-b border-gray-200">
+                        <button data-tab="tab1" class="tab-button text-lg py-4 px-6 border-b-2 tab-active">投資額</button>
+                        <button data-tab="tab2" class="tab-button text-lg py-4 px-6 border-b-2 tab-inactive">得られる知識</button>
+                        <button data-tab="tab3" class="tab-button text-lg py-4 px-6 border-b-2 tab-inactive">確かな実績</button>
+                    </div>
+                    <div id="tab-content" class="bg-white p-8 rounded-lg shadow-lg">
+                        <div id="tab1" class="tab-pane">
+                            <h3 class="text-2xl font-bold text-teal-600 mb-4">わずか"ワンコイン"で、未来の自分に投資する</h3>
+                            <p class="text-gray-700 mb-4">月額たったの<span class="font-bold text-2xl mx-1">500</span>円。しかも<span class="font-bold text-yellow-500">初月は無料</span>です。商売の基本「安く仕入れて、高く売る」ための情報とノウハウを、コーヒー1杯分の価格であなたのものに。人生を変えるのに、大きなリスクは必要ありません。</p>
+                        </div>
+                        <div id="tab2" class="tab-pane hidden">
+                            <h3 class="text-2xl font-bold text-teal-600 mb-4">安定した「サブスク収益」の作り方を公開</h3>
+                            <p class="text-gray-700 mb-4">一発屋で終わらない、長期的に収益が入り続ける「サブスクリプション型」の収入モデル構築法を、網羅的かつ段階的にお伝えします。80本以上の記事がすべて読み放題のフルパッケージです。</p>
+                        </div>
+                        <div id="tab3" class="tab-pane hidden">
+                            <h3 class="text-2xl font-bold text-teal-600 mb-4">すでに多くの仲間が成功しています</h3>
+                            <div class="space-y-4">
+                                <div class="bg-gray-100 p-4 rounded-lg">
+                                    <p class="font-bold text-gray-800">「今日、はじめて有料noteを発売したのですが、公開から2時間で18部売れました！最終的には50部以上の販売に成功しました！」</p>
+                                </div>
+                                <div class="bg-gray-100 p-4 rounded-lg">
+                                    <p class="font-bold text-gray-800">「noteの0→1達成！Xのフォロワーが1ヶ月で2倍に！」</p>
+                                </div>
+                                <div class="bg-gray-100 p-4 rounded-lg">
+                                    <p class="font-bold text-gray-800">「圧倒的な価値提供にいつも興奮しています！月額500円で更新型のコンテンツを買うと思えば破格！」</p>
+                                </div>
+                                <div class="bg-gray-100 p-4 rounded-lg">
+                                    <p class="font-bold text-gray-800">「下手な高額コンテンツを買うよりよっぽど勉強になります。」</p>
+                                </div>
+                                <div class="bg-gray-100 p-4 rounded-lg">
+                                    <p class="font-bold text-gray-800">「あ！コレが知りたかった！というピンポイントな内容がたくさん詰まっていてまるでビジネス書の図書館みたいです」</p>
+                                </div>
+                                <div class="bg-gray-100 p-4 rounded-lg">
+                                    <p class="font-bold text-gray-800">「1記事読めばお値段以上の価値を十分に感じられます！」</p>
+                                </div>
+                                <p class="text-gray-700 mt-4">あなたも彼らのように、着実に成果を出すことができます。次はあなたの番です。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="popular-articles" class="py-16 bg-teal-50 section-fade-in">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">【NEKO no TE】人気記事ピックアップ</h2>
+                <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="font-bold text-xl text-teal-600 mb-2">1撃100万を売り上げたプロダクトローンチ</h3>
+                        <p class="text-gray-700 mb-4">100万円を叩き出した、実録のプロダクトローンチ戦略を全公開。</p>
+                        <a href="https://note.com/neko_suzuki/n/ne17f394e24e6" target="_blank" class="text-teal-500 hover:text-teal-600 font-semibold text-sm">記事を読む &rarr;</a>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="font-bold text-xl text-teal-600 mb-2">毎月15万円の安定収益！ショット型から脱却するサブスク副業法</h3>
+                        <p class="text-gray-700 mb-4">一発屋で終わらないために必要な「継続収益の仕組み化」。サブスクを軸にした実践型モデルを解説</p>
+                        <a href="https://note.com/neko_suzuki/n/n202647f431b4" target="_blank" class="text-teal-500 hover:text-teal-600 font-semibold text-sm">記事を読む &rarr;</a>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md lg:col-span-2">
+                        <h3 class="font-bold text-xl text-teal-600 mb-2">弱小アカウントが活路を見出すための戦い方</h3>
+                        <p class="text-gray-700 mb-4">フォロワーが少なくても大丈夫。知名度ゼロから“勝てる土俵”を見つけた戦略</p>
+                        <a href="https://note.com/neko_suzuki/n/n7d5d28400aca" target="_blank" class="text-teal-500 hover:text-teal-600 font-semibold text-sm">記事を読む &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-neko" class="py-16 section-fade-in bg-white">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">鈴木ねこについて</h2>
+                <div class="md:flex md:items-center md:space-x-8">
+                    <div class="md:w-1/3 flex flex-col items-center mb-6 md:mb-0">
+                        <img src="https://nekosuzuki.com/wp-content/uploads/2025/08/DE9CQw1Z_400x400.jpg" onerror="this.onerror=null;this.src='https://placehold.co/300x300/FDFBF5/333?text=鈴木ねこ';" alt="鈴木ねこのプロフィール画像" class="rounded-full shadow-lg w-48 h-48 object-cover border-4 border-teal-200 mb-4">
+                        <div class="flex space-x-4">
+                            <a href="https://x.com/neko_suzuki_" target="_blank" class="text-4xl text-gray-600 hover:text-blue-500 transition-colors duration-300" aria-label="鈴木ねこのX（旧Twitter）プロフィール">
+                                𝕏
+                            </a>
+                            <a href="https://note.com/neko_suzuki" target="_blank" class="transition-colors duration-300" aria-label="鈴木ねこのnoteプロフィール">
+                                <img src="https://nekosuzuki.com/wp-content/uploads/2025/08/logo.png" onerror="this.onerror=null;this.src='https://placehold.co/40x40/FDFBF5/333?text=📝';" alt="noteアイコン" class="w-10 h-10 object-contain">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="md:w-2/3 text-gray-700">
+                        <p class="text-lg mb-4">「世界を遊びながら変えよう」<br>かつては毎日14時間労働、残業代・ボーナス・昇給なし、手取り15万円というブラックサラリーマンでした。<br>が,,,副業を開始して</p>
+                        <ul class="list-disc list-inside space-y-2 mb-6">
+                            <li>ブログ、YouTube、Kindle、note、ココナラなど複数媒体でマネタイズを達成。</li>
+                            <li>毎月15万円の安定収益を生み出すサブスク副業を展開。</li>
+                            <li>チャンネル登録者数1万人越えのYouTube運営。</li>
+                            <li>発信開始5ヶ月目で52万円の売り上げを達成。</li>
+                            <li>長期的に安定した収益を作り出すストック型の副業を作り上げるのが得意。</li>
+                        </ul>
+                        <p class="text-lg">自身の経験を活かし、会社に依存しない自由な生き方を実現するためのノウハウを、このメンバーシップで惜しみなく提供しています。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vision" class="py-20 bg-gray-800 text-white section-fade-in">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-4">あなたの人生の選択肢は、あなたが決める。</h2>
+                <p class="text-lg text-gray-300 max-w-2xl mx-auto">長期的に稼ぐ力を身につけ、大切な家族を守り、<br>時間に縛られず、楽しく気ままに暮らす。そんな人生を手に入れませんか？</p>
+            </div>
+        </section>
+
+        <section id="cta" class="py-20 section-fade-in">
+            <div class="container mx-auto px-6">
+                <div class="bg-white max-w-2xl mx-auto p-8 rounded-xl shadow-2xl text-center">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">今すぐ、副業をアップグレードしましょう</h2>
+                    <p class="text-gray-600 mb-6">初月無料なのでリスク0。鈴木ねこの脳みそを継承します。</p>
+                    <div class="bg-teal-50 p-6 rounded-lg mb-6 border border-teal-200">
+                        <p class="text-lg font-bold text-gray-800">月額 <span class="text-teal-600 text-4xl font-bold">500</span> 円</p>
+                        <p class="text-yellow-600 font-bold mt-2">✨ 初月無料キャンペーン中 ✨</p>
+                        <p class="text-sm text-gray-600 mt-2">全80記事以上が読み放題</p>
+                    </div>
+                    <a href="https://note.com/neko_suzuki/membership" target="_blank" class="w-full bg-teal-500 hover:bg-teal-600 text-white px-8 py-4 rounded-full text-xl font-bold transition-colors duration-300 inline-block shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        メンバーシップに参加する
+                    </a>
+                    <p class="text-xs text-gray-500 mt-4">クリックするとnoteのページに移動します</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center text-sm">
+            <p>&copy; 2025 NEKO no TE. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.tab-button');
+            const panes = document.querySelectorAll('.tab-pane');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    const targetId = this.getAttribute('data-tab');
+                    
+                    tabs.forEach(t => {
+                        t.classList.remove('tab-active');
+                        t.classList.add('tab-inactive');
+                    });
+                    this.classList.add('tab-active');
+                    this.classList.remove('tab-inactive');
+
+                    panes.forEach(pane => {
+                        if (pane.id === targetId) {
+                            pane.classList.remove('hidden');
+                        } else {
+                            pane.classList.add('hidden');
+                        }
+                    });
+                });
+            });
+
+            const sections = document.querySelectorAll('.section-fade-in');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if(targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
